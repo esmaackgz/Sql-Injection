@@ -44,8 +44,7 @@ Do not replace them with real third-party or production URLs unless you have exp
 | `sqlinj/post.ipynb` | Focuses on HTML forms and POST-based testing. It discovers form inputs, sends SQLi/XSS payloads, and checks returned responses. |
 | `sqlinj/Untitled.ipynb` | Early exploratory notebook for sending requests to a test target, inspecting responses, parsing HTML, and detecting SQL error messages. |
 | `sqlinj/Untitled1.ipynb` | URL-list based testing notebook. It loops through URLs and payloads, builds test requests, and includes XSS input/link testing examples. |
-| `sqlinj/deneme.ipynb` | Experimental scratch notebook. It contains additional request tests, small GUI experiments, and database-related practice code. It is not the main workflow. |
-| `sqlinj/payloads.txt` | SQL injection payload list used by the notebooks. |
+| `sqlinj/sql_payloads.txt` | SQL injection payload list used by the notebooks. |
 | `sqlinj/xss_payloads.txt` | XSS payload list used by the notebooks. |
 | `sqlinj/url.txt` | Safe demo/lab URLs prepared for vulnerability testing. |
 
