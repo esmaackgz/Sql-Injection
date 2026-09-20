@@ -47,7 +47,7 @@ Do not replace them with real third-party or production URLs unless you have exp
 | `sqlinj/deneme.ipynb` | Experimental scratch notebook. It contains additional request tests, small GUI experiments, and database-related practice code. It is not the main workflow. |
 | `sqlinj/payloads.txt` | SQL injection payload list used by the notebooks. |
 | `sqlinj/xss_payloads.txt` | XSS payload list used by the notebooks. |
-| `sqlinj/url.txt` | Safe demo/lab URLs prepared for vulnerability testing. These links can be shared in the GitHub repository. |
+| `sqlinj/url.txt` | Safe demo/lab URLs prepared for vulnerability testing. |
 
 ## Technologies Used
 
