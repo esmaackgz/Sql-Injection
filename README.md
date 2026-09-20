@@ -112,7 +112,7 @@ Open the notebooks from the `sqlinj/` folder.
 
 ## How It Works
 
-For SQL injection tests, the notebooks append payloads from `payloads.txt` to URL parameters or submit them through form inputs. They then search the response body for common SQL error indicators.
+For SQL injection tests, the notebooks append payloads from `sql_payloads.txt` to URL parameters or submit them through form inputs. They then search the response body for common SQL error indicators.
 
 For XSS tests, the notebooks send payloads from `xss_payloads.txt` and check whether the payload is reflected in the response content.
 
