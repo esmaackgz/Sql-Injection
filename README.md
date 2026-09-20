@@ -26,12 +26,10 @@ Do not replace them with real third-party or production URLs unless you have exp
 .
 ├── README.md
 └── sqlinj/
-    ├── 19211010.ipynb
-    ├── post.ipynb
-    ├── Untitled.ipynb
-    ├── Untitled1.ipynb
-    ├── deneme.ipynb
-    ├── payloads.txt
+    ├── 0_main_sqli_xss_tests.ipynb
+    ├── form_post_tests.ipynb
+    ├── basic_response_analysis.ipynb
+    ├── sql_payloads.txt
     ├── xss_payloads.txt
     └── url.txt
 ```
