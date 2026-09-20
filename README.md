@@ -62,45 +62,52 @@ Some experimental cells also use standard Python modules such as `sqlite3` and `
 
 ## Installation
 
-Clone the repository:
+Before running the notebooks, make sure Python 3 and Jupyter Notebook are installed on your computer. If you use Anaconda, Jupyter is usually already included.
+
+### 1. Clone the Repository
+
+Download the project from GitHub:
 
 ```bash
 git clone https://github.com/your-username/Sql-Injection.git
 cd Sql-Injection
 ```
 
-Create and activate a virtual environment:
+Replace `your-username` with your GitHub username or the owner of the repository.
 
-```bash
-python -m venv .venv
-```
+### 2. Install Dependencies
 
-On Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-On macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Install the required packages:
+Install the Python packages required by the notebooks:
 
 ```bash
 python -m pip install --upgrade pip
 pip install notebook requests beautifulsoup4 lxml
 ```
 
-Start Jupyter Notebook:
+If you already have Jupyter installed, you can install only the missing packages:
+
+```bash
+pip install requests beautifulsoup4 lxml
+```
+
+Package purpose:
+
+- `notebook`: opens and runs `.ipynb` files
+- `requests`: sends HTTP GET and POST requests
+- `beautifulsoup4`: parses HTML pages and forms
+- `lxml`: improves HTML/XML parsing support
+
+### 3. Start Jupyter Notebook
+
+Run Jupyter from the project folder:
 
 ```bash
 jupyter notebook
 ```
 
-Open the notebooks from the `sqlinj/` folder.
+Your browser will open the Jupyter interface. From there, open the `sqlinj/` folder and run the notebooks cell by cell.
+
+Using a virtual environment is optional. It can help keep dependencies isolated, but it is not required for this project if you are opening the notebooks directly in Jupyter or Anaconda.
 
 ## Usage
 
