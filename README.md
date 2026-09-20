@@ -38,10 +38,9 @@ Do not replace them with real third-party or production URLs unless you have exp
 
 | File | Description |
 | --- | --- |
-| `sqlinj/19211010.ipynb` | Main notebook that combines SQL injection and XSS test examples. It reads payloads and URLs from text files, sends requests, and checks responses for possible vulnerabilities. |
-| `sqlinj/post.ipynb` | Focuses on HTML forms and POST-based testing. It discovers form inputs, sends SQLi/XSS payloads, and checks returned responses. |
-| `sqlinj/Untitled.ipynb` | Early exploratory notebook for sending requests to a test target, inspecting responses, parsing HTML, and detecting SQL error messages. |
-| `sqlinj/Untitled1.ipynb` | URL-list based testing notebook. It loops through URLs and payloads, builds test requests, and includes XSS input/link testing examples. |
+| `sqlinj/0_main_sqli_xss_tests.ipynb` | Main notebook that combines SQL injection and XSS test examples. It reads payloads and URLs from text files, sends requests, and checks responses for possible vulnerabilities. |
+| `sqlinj/form_post_tests.ipynb` | Focuses on HTML forms and POST-based testing. It discovers form inputs, sends SQLi/XSS payloads, and checks returned responses. |
+| `sqlinj/basic_response_analysis.ipynb` | Early exploratory notebook for sending requests to a test target, inspecting responses, parsing HTML, and detecting SQL error messages. |
 | `sqlinj/sql_payloads.txt` | SQL injection payload list used by the notebooks. |
 | `sqlinj/xss_payloads.txt` | XSS payload list used by the notebooks. |
 | `sqlinj/url.txt` | Safe demo/lab URLs prepared for vulnerability testing. |
@@ -108,8 +107,8 @@ Using a virtual environment is optional. It can help keep dependencies isolated,
 
 ## Usage
 
-1. Open `sqlinj/19211010.ipynb` for the main SQL injection and XSS testing workflow.
-2. Use `sqlinj/post.ipynb` for form-based and POST request testing examples.
+1. Open `sqlinj/0_main_sqli_xss_tests.ipynb` for the main SQL injection and XSS testing workflow.
+2. Use `sqlinj/form_post_tests.ipynb` for form-based and POST request testing examples.
 3. Keep the payload files in the same folder as the notebooks.
 4. Run the notebook cells step by step.
 5. Review the printed results and manually verify any possible finding.
