@@ -2,7 +2,7 @@
 
 This project contains Jupyter notebooks and payload lists for testing SQL injection and reflected XSS behavior in a controlled security testing environment.
 
-The notebooks use Python to send SQL injection and XSS payloads to test URLs, URL parameters, and HTML form inputs. They then analyze the HTTP response content for common signs of vulnerable behavior.
+The notebooks use Python to send SQL injection and XSS payloads to test URLs, URL parameters and HTML form inputs. They then analyze the HTTP response content for common signs of vulnerable behavior.
 
 ## About the Test URLs
 
@@ -38,9 +38,9 @@ Do not replace them with real third-party or production URLs unless you have exp
 
 | File | Description |
 | --- | --- |
-| `sqlinj/0_main_sqli_xss_tests.ipynb` | Main notebook that combines SQL injection and XSS test examples. It reads payloads and URLs from text files, sends requests, and checks responses for possible vulnerabilities. |
-| `sqlinj/form_post_tests.ipynb` | Focuses on HTML forms and POST-based testing. It discovers form inputs, sends SQLi/XSS payloads, and checks returned responses. |
-| `sqlinj/basic_response_analysis.ipynb` | Early exploratory notebook for sending requests to a test target, inspecting responses, parsing HTML, and detecting SQL error messages. |
+| `sqlinj/0_main_sqli_xss_tests.ipynb` | Main notebook that combines SQL injection and XSS test examples. It reads payloads and URLs from text files, sends requests and checks responses for possible vulnerabilities. |
+| `sqlinj/form_post_tests.ipynb` | Focuses on HTML forms and POST-based testing. It discovers form inputs, sends SQLi/XSS payloads and checks returned responses. |
+| `sqlinj/basic_response_analysis.ipynb` | Early exploratory notebook for sending requests to a test target, inspecting responses, parsing HTML and detecting SQL error messages. |
 | `sqlinj/sql_payloads.txt` | SQL injection payload list used by the notebooks. |
 | `sqlinj/xss_payloads.txt` | XSS payload list used by the notebooks. |
 | `sqlinj/url.txt` | Safe demo/lab URLs prepared for vulnerability testing. |
@@ -125,4 +125,4 @@ This approach is simple and educational. It can produce false positives or false
 
 This project is intended for educational use and authorized security testing only. Use it only on demo targets, lab environments, or systems where you have permission to perform vulnerability testing.
 
-The author is not responsible for misuse, unauthorized testing, service disruption, or legal consequences caused by improper use.
+The author is not responsible for misuse, unauthorized testing, service disruption or legal consequences caused by improper use.
